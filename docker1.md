@@ -1,6 +1,10 @@
-**[ 学习网站](https://www.kuangstudy.com/)**
+**[ 自建的网站](https://www.kuangstudy.com/)**
 
 **[b站原视频](https://www.bilibili.com/video/BV1og4y1q7M4?vd_source=345a382f2c86d3441cc342a80fc25545 )**
+
+**码云 [gitee](https://gitee.com/kuangstudy)**
+
+**公众号**
 
 目录生成语法：vscode插件markdown in all
 
