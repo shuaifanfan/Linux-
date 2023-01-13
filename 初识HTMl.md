@@ -4,7 +4,7 @@
 
 ## 初识HTMl
 
-**<font color=&quot;red&quot;>;HTML---全名是 Hyper Text Markup Language---（超文本标记语言）</font>;**
+<font color=&quot;red&quot;>;HTML---全名是 Hyper Text Markup Language---（超文本标记语言）</font>;
 
 **<font color=&quot;blue&quot;>;超文本包括：文字、图片、音频、视频、动画等。</font>;**
 
