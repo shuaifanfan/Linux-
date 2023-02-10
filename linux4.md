@@ -180,7 +180,11 @@ firewall-cmd --list-ports  # 只看端口信息
     
     docker images
     ```
+### 从源码，解压，配置，编译，安装程序
 
+https://www.bilibili.com/video/BV1uW4y1n7PF/?spm_id_from=333.337.search-card.all.click
+
+https://www.bilibili.com/video/BV1494y1f7r3/?spm_id_from=333.337.search-card.all.click
     
 
 ### 宝塔面板安装
