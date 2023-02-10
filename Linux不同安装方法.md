@@ -1,6 +1,8 @@
 >  链接：https://juejin.cn/post/7017730484520091655
 
-# RPM包默认安装路径
+# RPM
+
+## RPM包默认安装路径
 
 通常，RPM 包采用系统默认的安装路径。安装文件会按照类别分别安装到不同的目录，如下所示：
 
@@ -14,7 +16,7 @@
 
 RPM 包还可以手动指定安装路径（不推荐）。
 
-# 查询 RPM 包的默认安装路径
+## 查询 RPM 包的默认安装路径
 
 rpm包文件中会记录相关的配置参数，并且会对照Linux系统的环境，在安装时生成对应的信息，比如安装路径、配置路径等。
 
@@ -201,7 +203,7 @@ rpm包文件中会记录相关的配置参数，并且会对照Linux系统的环
 > 复制代码
 > ```
 
-# 改变rpm包默认安装路径【极其非常不推荐这么做】
+## 改变rpm包默认安装路径【极其非常不推荐这么做】
 
 `rpm -qpl`命令可以查看软件包默认的安装目录。在安装软件包时，通过`--relocate`参数，可以修改安装中涉及到的默认路径。
 
@@ -218,7 +220,9 @@ rpm -ivh --relocate /usr/bin=/home/user_test/bin --relocate /usr/share/doc=/home
 
 >  http://c.biancheng.net/view/2952.html
 
-# 从源码解压，配置，编译，安装，一个程序
+# 源码安装
+
+## 从源码解压，配置，编译，安装，一个程序
 
 本节仍然以安装 apache 为例，安装过程分为如下几步：
 
@@ -281,7 +285,7 @@ rpm -ivh --relocate /usr/bin=/home/user_test/bin --relocate /usr/share/doc=/home
 
 注意，如果在 "./configure" 或 "make" 编译中报错，则在重新执行命令前一定要执行 `make clean` 命令，它会清空 Makefile 文件或编译产生的 ".o" 头文件。
 
-# Linux源码包卸载
+## Linux源码包卸载
 
 
 
@@ -299,6 +303,8 @@ rpm -ivh --relocate /usr/bin=/home/user_test/bin --relocate /usr/share/doc=/home
 
 # npm的全局安装和本地安装
 
+> 这个和linux没关系，是node.js的包管理工具npm，在写一个node.js项目时，需要在线安装【包】是，需要注意的
+
 npm的包安装分为本地安装（local）、全局安装（global）两种
 
 npm install grunt # 本地安装
@@ -314,3 +320,4 @@ npm install -g grunt-cli # 全局安装
 模块将被下载安装到全局目录中，即Node的安装目录下的node_modules下
 可以直接在命令行里使用
 通过全局安装的插件不可以通过require() 来引入
+
